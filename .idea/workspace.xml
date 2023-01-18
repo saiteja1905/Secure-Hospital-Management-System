@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9b6a10ef-dfcd-4a3b-b30a-94e08b32af5d" name="Changes" comment="refactoring the changes">
+      <change afterPath="$PROJECT_DIR$/src/AdminAddUser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdminAppointmentsView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdminAppointmentsView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdminDashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdminDashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdminDoctorSearch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdminDoctorSearch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdminInsurances.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdminInsurances.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdminProfileUpdate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdminProfileUpdate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdminTransactions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdminTransactions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AllPatients.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllPatients.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AllinsuranceDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllinsuranceDetails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Appointment.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Appointment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DoctorAppointments.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoctorAppointments.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HSAppointments.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/HSAppointments.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HosStaffDashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/HosStaffDashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InsuranceDashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/InsuranceDashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InsuranceDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/InsuranceDetails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InsuranceForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/InsuranceForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Invoices.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Invoices.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PatientProfilePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/PatientProfilePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/change-password.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/change-password.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chatDoctor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/chatDoctor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/doctorSearch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/doctorSearch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/labStaffProfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/labStaffProfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patientbooking.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/patientbooking.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/profileSettings.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/profileSettings.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="26clbRva3OKYaZLAUUUT8qIvck6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/chatbot" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/chatbot" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/assets/img" />
+      <recent name="$PROJECT_DIR$/src/assets2/img" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9b6a10ef-dfcd-4a3b-b30a-94e08b32af5d" name="Changes" comment="" />
+      <created>1647730828224</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647730828224</updated>
+      <workItem from="1647730830665" duration="30983000" />
+      <workItem from="1647844252847" duration="7708000" />
+      <workItem from="1647974992593" duration="675000" />
+      <workItem from="1647975997234" duration="21709000" />
+      <workItem from="1648410118062" duration="131316000" />
+      <workItem from="1648851602086" duration="46342000" />
+      <workItem from="1649110792729" duration="42980000" />
+      <workItem from="1649201538030" duration="4244000" />
+      <workItem from="1649208485974" duration="1830000" />
+    </task>
+    <task id="LOCAL-00001" summary="Indentation fixes and my code updates">
+      <created>1647731533435</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1647731533435</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Update is in the rain">
+      <created>1647808911075</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1647808911075</updated>
+    </task>
+    <task id="LOCAL-00003" summary="register page error handling">
+      <created>1647811604093</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1647811604095</updated>
+    </task>
+    <task id="LOCAL-00004" summary="register page error handling">
+      <created>1647819313915</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1647819313916</updated>
+    </task>
+    <task id="LOCAL-00005" summary="dashboard changes to reflect minor updates">
+      <created>1647878600450</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1647878600450</updated>
+    </task>
+    <task id="LOCAL-00006" summary="dashboard updates to ui">
+      <created>1647973099700</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1647973099700</updated>
+    </task>
+    <task id="LOCAL-00007" summary="profile settings update">
+      <created>1647974954912</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1647974954912</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update in the profiel settings page for errors">
+      <created>1647982773241</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1647982773241</updated>
+    </task>
+    <task id="LOCAL-00009" summary="profile settings update">
+      <created>1648087511930</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1648087511930</updated>
+    </task>
+    <task id="LOCAL-00010" summary="search doctor ui">
+      <created>1648095504735</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1648095504736</updated>
+    </task>
+    <task id="LOCAL-00011" summary="update in the pages of profile chat and my patients, doctor search and logo updates">
+      <created>1648103643185</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1648103643185</updated>
+    </task>
+    <task id="LOCAL-00012" summary="admin page update">
+      <created>1648105071680</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1648105071680</updated>
+    </task>
+    <task id="LOCAL-00013" summary="admin dashboard update">
+      <created>1648141288664</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1648141288664</updated>
+    </task>
+    <task id="LOCAL-00014" summary="landing page update">
+      <created>1648357789058</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1648357789059</updated>
+    </task>
+    <task id="LOCAL-00015" summary="admin modify users">
+      <created>1648424315830</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1648424315830</updated>
+    </task>
+    <task id="LOCAL-00016" summary="admin page update">
+      <created>1648425130087</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1648425130087</updated>
+    </task>
+    <task id="LOCAL-00017" summary="appointment request">
+      <created>1648503239010</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1648503239010</updated>
+    </task>
+    <task id="LOCAL-00018" summary="udpate hdb">
+      <created>1648527190492</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1648527190492</updated>
+    </task>
+    <task id="LOCAL-00019" summary="login 2 factor">
+      <created>1648535139639</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1648535139639</updated>
+    </task>
+    <task id="LOCAL-00020" summary="appointments accept and reject">
+      <created>1648586146395</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1648586146395</updated>
+    </task>
+    <task id="LOCAL-00021" summary="load patients and their roles">
+      <created>1648591167876</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1648591167876</updated>
+    </task>
+    <task id="LOCAL-00022" summary="diagnosis page update">
+      <created>1648677855031</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1648677855031</updated>
+    </task>
+    <task id="LOCAL-00023" summary="diagnosis addition success">
+      <created>1648687099301</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1648687099301</updated>
+    </task>
+    <task id="LOCAL-00024" summary="udpating the github now">
+      <created>1648840347050</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1648840347050</updated>
+    </task>
+    <task id="LOCAL-00025" summary="set and get doctors availability">
+      <created>1648855528340</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1648855528340</updated>
+    </task>
+    <task id="LOCAL-00026" summary="SOME UPDATE">
+      <created>1648873920731</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1648873920731</updated>
+    </task>
+    <task id="LOCAL-00027" summary="insurance">
+      <created>1648949933454</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1648949933454</updated>
+    </task>
+    <task id="LOCAL-00028" summary="insurance update">
+      <created>1649018953744</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1649018953744</updated>
+    </task>
+    <task id="LOCAL-00029" summary="some major updates">
+      <created>1649040270437</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1649040270437</updated>
+    </task>
+    <task id="LOCAL-00030" summary="some major updates">
+      <created>1649040366643</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1649040366644</updated>
+    </task>
+    <task id="LOCAL-00031" summary="refactor changes">
+      <created>1649040987258</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1649040987258</updated>
+    </task>
+    <task id="LOCAL-00032" summary="refactor changes">
+      <created>1649041112424</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1649041112424</updated>
+    </task>
+    <task id="LOCAL-00033" summary="refactor changes">
+      <created>1649046432844</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1649046432844</updated>
+    </task>
+    <task id="LOCAL-00034" summary="insurance request">
+      <created>1649053217323</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1649053217323</updated>
+    </task>
+    <task id="LOCAL-00035" summary="checkout">
+      <created>1649059038364</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1649059038365</updated>
+    </task>
+    <task id="LOCAL-00036" summary="checkout update">
+      <created>1649100007737</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1649100007737</updated>
+    </task>
+    <task id="LOCAL-00037" summary="transactions">
+      <created>1649151591338</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1649151591338</updated>
+    </task>
+    <task id="LOCAL-00038" summary="refactoring the code">
+      <created>1649181969834</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1649181969834</updated>
+    </task>
+    <task id="LOCAL-00039" summary="login fix">
+      <created>1649182409827</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1649182409827</updated>
+    </task>
+    <task id="LOCAL-00040" summary="some updates">
+      <created>1649186482359</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1649186482360</updated>
+    </task>
+    <task id="LOCAL-00041" summary="refactoring the changes">
+      <created>1649199206576</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1649199206576</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="landing page update" />
+    <MESSAGE value="admin modify users" />
+    <MESSAGE value="admin page update" />
+    <MESSAGE value="appointment request" />
+    <MESSAGE value="udpate hdb" />
+    <MESSAGE value="login 2 factor" />
+    <MESSAGE value="appointments accept and reject" />
+    <MESSAGE value="load patients and their roles" />
+    <MESSAGE value="diagnosis page update" />
+    <MESSAGE value="diagnosis addition success" />
+    <MESSAGE value="udpating the github now" />
+    <MESSAGE value="set and get doctors availability" />
+    <MESSAGE value="SOME UPDATE" />
+    <MESSAGE value="insurance" />
+    <MESSAGE value="insurance update" />
+    <MESSAGE value="some major updates" />
+    <MESSAGE value="refactor changes" />
+    <MESSAGE value="insurance request" />
+    <MESSAGE value="checkout" />
+    <MESSAGE value="checkout update" />
+    <MESSAGE value="transactions" />
+    <MESSAGE value="refactoring the code" />
+    <MESSAGE value="login fix" />
+    <MESSAGE value="some updates" />
+    <MESSAGE value="refactoring the changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring the changes" />
+  </component>
+</project>
